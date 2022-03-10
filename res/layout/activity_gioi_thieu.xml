@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    tools:context=".GioiThieuActivity" >
+	<TextView
+	        android:id="@+id/textView4"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:background="#226666"
+			android:gravity="center"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:textSize="15dp"
+			android:text="GIỚI THIỆU"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4" />
+
+</RelativeLayout>

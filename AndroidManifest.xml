@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phancaphanhchinhvn"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_phancap"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.phancaphanhchinhvn.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.XemTinhActivity"
+            android:label="@string/title_activity_xem_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.TimTinhActivity"
+            android:label="@string/title_activity_tim_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.XemChiTietTinhActivity"
+            android:label="@string/title_activity_xem_chi_tiet_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.TraCuuActivity"
+            android:label="@string/title_activity_tra_cuu" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.XemChiTietHuyenActivity"
+            android:label="@string/title_activity_xem_chi_tiet_huyen" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.XemChiTietXaActivity"
+            android:label="@string/title_activity_xem_chi_tiet_xa" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.TraCuuTheoTenMaActivity"
+            android:label="@string/title_activity_tra_cuu_theo_ten_ma" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QuanLyActivity"
+            android:label="@string/title_activity_quan_ly" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QLCapTinhActivity"
+            android:label="@string/title_activity_qlcap_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.ThemTinhActivity"
+            android:label="@string/title_activity_them_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.SuaTinhActivity"
+            android:label="@string/title_activity_sua_tinh" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QLCapHuyenActivity"
+            android:label="@string/title_activity_qlcap_huyen" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.SuaHuyenActivity"
+            android:label="@string/title_activity_sua_huyen" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.ThemHuyenActivity"
+            android:label="@string/title_activity_them_huyen" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QLNguoiDungActivity"
+            android:label="@string/title_activity_qlnguoi_dung" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.SuaNguoiDungActivity"
+            android:label="@string/title_activity_sua_nguoi_dung" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.ThemNguoiDungActivity"
+            android:label="@string/title_activity_them_nguoi_dung" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QLCapXaActivity"
+            android:label="@string/title_activity_qlcap_xa" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.SuaXaActivity"
+            android:label="@string/title_activity_sua_xa" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.ThemXaActivity"
+            android:label="@string/title_activity_them_xa" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.DangNhapActivity"
+            android:label="@string/title_activity_dang_nhap" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.QuenMatKhauActivity"
+            android:label="@string/title_activity_quen_mat_khau" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.DoiMatKhauActivity"
+            android:label="@string/title_activity_doi_mat_khau"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.GioiThieuActivity"
+            android:label="@string/title_activity_gioi_thieu" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.TrangChuActivity"
+            android:label="@string/title_activity_trang_chu" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.DoiMatKhauNDActivity"
+            android:label="@string/title_activity_doi_mat_khau_nd" 
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.phancaphanhchinhvn.DangKyActivity"
+            android:label="@string/title_activity_dang_ky" 
+            >
+        </activity>
+    </application>
+
+</manifest>

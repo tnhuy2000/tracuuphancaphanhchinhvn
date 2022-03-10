@@ -1,0 +1,160 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	 >
+	<LinearLayout 
+   
+	    	android:layout_width="match_parent"
+		    android:layout_height="465dp"
+		    android:orientation="vertical" 
+		     android:padding="3dip">
+	 	<TextView
+	        android:id="@+id/textView4"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:background="#226666"
+			android:gravity="center"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:textSize="15dp"
+			android:text="QUẢN LÝ CẤP XÃ"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#4fdef7"
+	        android:text="THÊM MỚI XÃ:"
+	         />
+
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:stretchColumns="*"
+	       >
+
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_column="0"
+	                android:text="Mã:"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <EditText
+	                android:id="@+id/editTextThemMaXa"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                
+	                android:layout_column="1"
+	                android:ems="10" >
+
+	                <requestFocus />
+	            </EditText>
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Tên:"
+	                android:layout_column="0"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <EditText
+	                android:id="@+id/editTextThemTenXa"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_column="1"
+	                android:ems="10" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/textView5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Cấp:"
+	                android:layout_column="0"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <Spinner
+	                android:id="@+id/spinnerThemLoaiXa"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_column="1" />
+
+	        </TableRow>
+<TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/textView5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Quận huyện:"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <Spinner
+	                android:id="@+id/spinnerThemCapHuyen_id"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_column="1" />
+
+	        </TableRow>
+	        
+	        <TableRow
+	            android:id="@+id/tableRow8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <Button
+	                android:id="@+id/buttonXoaTrang"
+	                style="?android:attr/buttonStyleSmall"
+	                android:layout_width="wrap_content"
+	                android:layout_column="0"
+	                android:layout_height="wrap_content"
+	                android:text="Xoá trắng" />
+
+	            <Button
+	                android:id="@+id/buttonXaThemMoi"
+	                style="?android:attr/buttonStyleSmall"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_column="1"
+	                android:text="Thêm mới" />
+
+	        </TableRow>
+
+	    </TableLayout>
+
+	    <Button
+	        android:id="@+id/buttonHuy"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Huỷ" />
+	
+	</LinearLayout>
+</ScrollView>

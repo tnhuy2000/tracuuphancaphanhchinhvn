@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_user" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="30dip"
+        android:text="Reset Password"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextQuenEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="Email" 
+        android:ems="10"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonQuenMatKhau"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:drawableStart="@drawable/ic_login"
+        android:text="Quên mật khẩu"
+        android:textStyle="bold" >
+
+    </Button>
+
+</LinearLayout>

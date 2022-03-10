@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhanCapHanhChinhVN</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_xem_tinh">XemTinhActivity</string>
+    <string name="title_activity_tim_tinh">TimTinhActivity</string>
+    <string name="title_activity_xem_chi_tiet_tinh">XemChiTietTinhActivity</string>
+    <string name="title_activity_tra_cuu">TraCuuActivity</string>
+    <string name="title_activity_xem_chi_tiet_huyen">XemChiTietHuyenActivity</string>
+    <string name="title_activity_xem_chi_tiet_xa">XemChiTietXaActivity</string>
+    <string name="title_activity_tra_cuu_theo_ten_ma">TraCuuTheoTenMaActivity</string>
+    <string name="title_activity_quan_ly">QuanLyActivity</string>
+    <string name="title_activity_qlcap_tinh">QLCapTinhActivity</string>
+    <string name="title_activity_them_tinh">ThemTinhActivity</string>
+    <string name="title_activity_sua_tinh">SuaTinhActivity</string>
+    <string name="title_activity_qlcap_huyen">QLCapHuyenActivity</string>
+    <string name="title_activity_sua_huyen">SuaHuyenActivity</string>
+    <string name="title_activity_them_huyen">ThemHuyenActivity</string>
+    <string name="title_activity_qlnguoi_dung">QLNguoiDungActivity</string>
+    <string name="title_activity_sua_nguoi_dung">SuaNguoiDungActivity</string>
+    <string name="title_activity_them_nguoi_dung">ThemNguoiDungActivity</string>
+    <string name="title_activity_qlcap_xa">QLCapXaActivity</string>
+    <string name="title_activity_sua_xa">SuaXaActivity</string>
+    <string name="title_activity_them_xa">ThemXaActivity</string>
+    <string name="title_activity_dang_nhap">DangNhapActivity</string>
+    <string name="title_activity_quen_mat_khau">QuenMatKhauActivity</string>
+    <string name="title_activity_doi_mat_khau">DoiMatKhauActivity</string>
+    <string name="title_activity_gioi_thieu">GioiThieuActivity</string>
+    <string name="title_activity_trang_chu">TrangChuActivity</string>
+    <string name="title_activity_doi_mat_khau_nd">DoiMatKhauNDActivity</string>
+    <string name="title_activity_dang_ky">DangKyActivity</string>
+
+</resources>

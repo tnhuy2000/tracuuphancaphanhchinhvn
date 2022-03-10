@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	android:padding="3dip"
+    tools:context=".DoiMatKhauNDActivity" >
+	<TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đổi mật khẩu"
+        android:textColor="#ffffff"
+        android:background="#226666"
+        android:textSize="25sp" />
+	
+	<EditText
+        android:id="@+id/editTextDoiMatKhauNDMoi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:hint="Mật khẩu mới" 
+        android:ems="10"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:textSize="18sp" >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextDoiXNMatKhauNDMoi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:hint="Xác nhận mật khẩu" 
+        android:ems="10"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:textSize="18sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonDoiMatKhauNDMoi"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Lưu"
+        android:textStyle="bold" >
+
+    </Button>
+</LinearLayout>

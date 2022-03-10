@@ -1,0 +1,233 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	 >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="465dp"
+	    android:orientation="vertical" 
+	     android:padding="3dip"
+	    >
+
+		<TextView
+			android:id="@+id/textView4"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:background="#226666"
+			android:gravity="center"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:textSize="20dp"
+			android:text="Chi tiết quận/huyện"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TableLayout 
+			    android:id="@+id/TableLayout1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="match_parent"
+			 	android:background="#FFFF00"
+			 	android:stretchColumns="1,2"
+			    >
+			   
+			    <TableRow
+			        android:id="@+id/tableRow1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			
+			        <TextView
+			            android:id="@+id/textView1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Mã quận/huyện:" />
+			
+			        
+			        <TextView
+			            android:id="@+id/textViewMaHuyen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="1"
+			            android:layout_span="2"
+			            android:text="Small text"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			        
+			
+			    </TableRow>
+			
+			    <TableRow
+			        android:id="@+id/tableRow2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			
+			        <TextView
+			            android:id="@+id/textView2"
+			            android:layout_width="10dp"
+			            android:layout_height="wrap_content"
+			            android:text="Tên quận/huyện:"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			        <TextView
+			            android:id="@+id/textViewTenHuyen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="1"
+			            android:layout_span="2"
+			            android:text="SmallText"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			    </TableRow>
+			
+			    <TableRow
+			        android:id="@+id/tableRow3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			
+			        <TextView
+			            android:id="@+id/textView3"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Cấp:"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			        <TextView
+			            android:id="@+id/textViewLoai"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="1"
+			            android:layout_span="2"
+			            android:text="Small Text"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			    </TableRow>
+			
+			    <TableRow
+			        android:id="@+id/tableRow4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			
+			        <TextView
+			            android:id="@+id/textView5"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Mã tỉnh/thành phố:"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			        <TextView
+			            android:id="@+id/textViewCapTinh_id_huyen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="1"
+			            android:layout_span="2"
+			            android:text="Small Text"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			    </TableRow>
+			    <TableRow
+			        android:id="@+id/tableRow5"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			
+			        <TextView
+			            android:id="@+id/textView5"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="0"
+			            android:text="Tỉnh/Thành phố:"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			        <TextView
+			            android:id="@+id/textViewTenTinh_huyen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_column="1"
+			            android:layout_span="2"
+			            android:text="Small Text"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			    </TableRow>
+			    <TableRow
+				        android:id="@+id/tableRow8"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" >
+				
+				        <TextView
+				            android:id="@+id/textView6"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Số lượng phường xã: "
+				            android:textAppearance="?android:attr/textAppearanceSmall" />
+				
+				        <TextView
+				            android:id="@+id/textViewSoLuongPhuongXa"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_span="2"
+				            android:text="0"
+				            android:textAppearance="?android:attr/textAppearanceSmall" />
+				
+				    </TableRow>
+			    <TableRow
+			    android:id="@+id/TableRow6"
+				android:layout_width="wrap_content"
+				android:background="#ffffff"
+				android:layout_height="wrap_content" >
+			        <TextView
+			            android:id="@+id/textViewMaHuyen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_span="3"
+			            android:layout_column="0"
+			            android:text="Danh sách phường/xã: "
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+			    </TableRow>
+			    <TableRow
+				android:id="@+id/TableRow7"
+				android:layout_width="wrap_content"
+				android:background="#4fdef7"
+				android:layout_height="wrap_content" >
+				
+				<TextView
+				    android:id="@+id/textView7"
+				    android:layout_width="10dp"
+				    android:layout_height="wrap_content"
+				    android:layout_column="0"
+				    android:gravity="left"
+				    android:text="Mã đơn vị:"
+				    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+				<TextView
+				    android:id="@+id/textView8"
+				    android:layout_width="30dp"
+				    android:layout_height="wrap_content"
+				    android:layout_column="1"
+				    android:gravity="left"
+				    android:text="Tên"
+				    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+				<TextView
+				    android:id="@+id/textView9"
+				    android:layout_width="30dp"
+				    android:layout_height="wrap_content"
+				    android:layout_column="2"
+				    android:gravity="left"
+				    android:text="Cấp"
+				    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			</TableRow>
+			
+			</TableLayout>
+
+			<GridView
+			    android:id="@+id/gridView1"
+			    android:layout_width="match_parent"
+			    android:layout_height="247dp"
+			    android:layout_span="3"
+			    android:numColumns="1" 
+			    android:stretchMode="columnWidth"
+	       
+	        android:listSelector="@drawable/list_selector">
+
+		</GridView>
+
+	</LinearLayout>
+</ScrollView>

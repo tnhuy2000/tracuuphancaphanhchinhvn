@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="10dip"
+   
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TrangChuActivity" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#226666"
+               	android:textColor="#ffffff"
+               	android:layout_span="2"
+               	android:gravity="center"
+               	android:padding="10dip"
+                android:text="TRA CỨU PHÂN CẤP HÀNH CHÍNH VIỆT NAM"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+		<TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5dip">
+
+            <TextView
+                android:id="@+id/textViewHoTenTCND"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:gravity="left"
+                android:text="Họ tên: " />
+            <Button
+                android:id="@+id/btnDoiMatKhauND"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:background="#ffffff"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textStyle="bold"
+                android:text="Đổi mật khẩu?" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:paddingTop="10dip">
+
+            <ImageButton
+                android:id="@+id/btnGioiThieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="#ffffff"
+                android:src="@drawable/ic_ql2" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center"
+                android:text="Giới thiệu" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/btnXemDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/ic_ql3" />
+
+            <ImageButton
+                android:id="@+id/btnTraCuuTheoTen_Ma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_column="1"
+                android:src="@drawable/ic_timkiem" />
+
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:gravity="center"
+                android:text="Danh sách" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:gravity="center"
+                android:text="Tra cứu" />
+
+            
+
+        </TableRow>
+		<TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dip" >
+
+        </TableRow>
+      
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnDangXuat"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:drawableStart="@drawable/ic_login"
+        		android:textStyle="bold"
+                android:layout_column="0"
+                android:text="Đăng xuất" />
+
+            <Button
+                android:id="@+id/btnThoat"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:drawableStart="@drawable/ic_thoat"
+                android:layout_height="wrap_content"
+                 android:layout_column="0"
+                 android:textStyle="bold"
+                android:text="Thoát" />
+
+        </TableRow>
+
+      
+
+    </TableLayout>
+
+    
+
+</RelativeLayout>
